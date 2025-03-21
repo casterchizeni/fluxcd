@@ -1,0 +1,16 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: castai
+  namespace: flux-system
+spec:
+  interval: 1m
+  path: ./castai  # Relative to your GitRepository root
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: fluxcd_castai
+    namespace: flux-system
+  wait: true
+  timeout: 2m
+

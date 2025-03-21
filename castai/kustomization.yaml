@@ -9,7 +9,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: fluxcd_castai
+    name: fluxcd
     namespace: flux-system
   wait: true
   timeout: 2m

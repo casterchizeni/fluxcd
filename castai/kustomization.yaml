@@ -4,4 +4,9 @@ resources:
   - namespace.yaml
   - castai-helm-repo.yaml
   - castai-agent-readonly.yaml
+  - cluster-controller.yaml
+  - workload-autoscaler.yaml
+  - spot-handler.yaml
+  - evictor.yaml
+  - kvisor.yaml   # optional
 

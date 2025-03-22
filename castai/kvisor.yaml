@@ -15,7 +15,7 @@ spec:
   values:
     castai:
       apiKey: "0d84debfa3f0be50c3454ab645f8b04d1db0e096a4a0fd674675e04794508635"
-      clusterID: "06d41ea4-f0fb-4ce1-bccf-82b477048fc3"
+      clusterID: "d781172d-68b7-4fb8-a65d-98061fbdff64"
     controller:
       extraArgs:
         kube-linter-enabled: true

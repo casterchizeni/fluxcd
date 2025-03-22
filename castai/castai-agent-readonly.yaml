@@ -17,5 +17,5 @@ spec:
     provider: gke
     createNamespace: true
     readonly: false                        # This enables read-only mode
-
+    replicaCount: 1
 

@@ -13,7 +13,7 @@ spec:
         name: castai-helm
         namespace: flux-system
   values:
-    apiKey: "0d84debfa3f0be50c3454ab645f8b04d1db0e096a4a0fd674675e04794508635"      # Replace this
+    apiKey: ""      # Replace this
     provider: gke
     createNamespace: true
     readonly: false                        # This enables read-only mode

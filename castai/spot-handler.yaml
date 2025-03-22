@@ -1,0 +1,18 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: castai-spot-handler
+  namespace: castai-agent
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: castai-spot-handler
+      sourceRef:
+        kind: HelmRepository
+        name: castai-helm
+        namespace: flux-system
+  values:
+    castai:
+      provider: gke
+      clusterID: "06d41ea4-f0fb-4ce1-bccf-82b477048fc3"

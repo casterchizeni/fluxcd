@@ -15,4 +15,4 @@ spec:
   values:
     castai:
       provider: gke
-      clusterID: "d781172d-68b7-4fb8-a65d-98061fbdff64"
+      clusterID: ""
